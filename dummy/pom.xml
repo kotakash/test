@@ -43,7 +43,8 @@
 						<applicationName>dummy-app-kash</applicationName>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
-                		</configuration>
+					<classifier>mule-application</classifier>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>

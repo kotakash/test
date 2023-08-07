@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="dummyFlow" doc:id="efddd84f-48c3-4576-87a3-28d2769c2c5a" >
 		<http:listener doc:name="Listener" doc:id="fb781775-9269-4c50-84db-156c8120b57f" config-ref="HTTP_Listener_config" path="hello"/>
-		<set-payload value='#["Hello"]' doc:name="Set Payload" doc:id="0950a914-5cca-4f28-82a7-d6cec913d8e7" />
+		<set-payload value='#["Hello World"]' doc:name="Set Payload" doc:id="0950a914-5cca-4f28-82a7-d6cec913d8e7" />
 	</flow>
 </mule>
