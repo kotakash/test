@@ -34,10 +34,10 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>kotakashyap010</username>
+						<username>kotakashyap037</username>
 						<password>Kash1995</password>
 						<environment>Sandbox</environment>
-						<muleVersion>4.3.0</muleVersion>
+						<muleVersion>4.4.0</muleVersion>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
 						<applicationName>dummy-app-kash</applicationName>
@@ -92,7 +92,7 @@
 		<snapshotRepository>
 			<id>mulerelease</id>
 			<name>mulerelease</name>
-			<url>http://localhost:9081/repository/mulerelease/</url>
+			<url>http://localhost:8081/repository/muleradv/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<repositories>
